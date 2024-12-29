@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "adventofcode"
+version = "0.1.0"
+description = "Advent of Code"
+authors = ["Sayan Naskar <nascarsayan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+attrs = "^24.3.0"
+cattrs = "^24.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
